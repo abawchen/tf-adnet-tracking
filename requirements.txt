@@ -3,3 +3,5 @@ hdf5storage
 argparse
 fire
 pyyaml
+opencv-python
+tensorflow
