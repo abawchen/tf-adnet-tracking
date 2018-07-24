@@ -27,6 +27,18 @@ Tensorflow Implementation of 'Action-Decision Networks for Visual Tracking with 
 
 ### OTB100 Dataset
 
+
+Create a virtualenv in which we can install the dependencies (recommanded):
+```
+$ virtualenv env
+$ source env/bin/activate
+```
+
+Install dependencies:
+```
+$ pip install -r requirements.txt
+```
+
 ```
 $ python runner.py by_dataset  --vid-path=./data/freeman1/
 ```
